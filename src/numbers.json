@@ -1,0 +1,80 @@
+{
+  "individuals": [
+    {
+      "phoneNumber": "01000007502",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "01000008017",
+      "rating": 3
+    },
+    {
+      "phoneNumber": "01000003852",
+      "rating": 5
+    },
+    {
+      "phoneNumber": "01000005483",
+      "rating": 2
+    },
+    {
+      "phoneNumber": "01000002295",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "01050700600",
+      "rating": 3
+    },
+    {
+      "phoneNumber": "010700099100",
+      "rating": 5
+    },
+    {
+      "phoneNumber": "01000100586",
+      "rating": 2
+    },
+    {
+      "phoneNumber": "01011500115",
+      "rating": 3
+    },
+    {
+      "phoneNumber": "01000004283",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "01000004284",
+      "rating": 5
+    }
+  ],
+  "groups": [
+    {
+      "groupId": "G1",
+      "phoneNumbers": [
+        {
+          "phoneNumber": "+20234567890",
+          "rating": 3
+        },
+        {
+          "phoneNumber": "+20234567891",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "groupId": "G2",
+      "phoneNumbers": [
+        {
+          "phoneNumber": "+20334567890",
+          "rating": 4
+        },
+        {
+          "phoneNumber": "+20334567891",
+          "rating": 2
+        },
+        {
+          "phoneNumber": "+20334567892",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}
