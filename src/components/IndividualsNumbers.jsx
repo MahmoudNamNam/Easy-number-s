@@ -12,7 +12,7 @@ const IndividualsNumbers = () => {
 
   return (
     <section className="individual-numbers bg-main py-3  ">
-      <div className="container p-4">
+      <div className="container p-3">
         <h2 className="text-white mb-3">Individual Numbers</h2>
         <div className="row">
           {data.individuals.map((item, index) => (
@@ -24,7 +24,7 @@ const IndividualsNumbers = () => {
                       src={img}
                       alt="Phone banner"
                       className="img-fluid h-100 object-fit-cover"
-                      style={{ height: "100px",width:'100px' }}
+                      style={{ height: "100px",width:'90px' }}
                     />
                   </div>
                   <div className="col-8 py-2 text-white">
