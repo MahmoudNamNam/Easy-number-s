@@ -1,47 +1,47 @@
 {
   "individuals": [
     {
-      "phoneNumber": "01000007502",
+      "phoneNumber": "0100000.750.2",
       "rating": 4
     },
     {
-      "phoneNumber": "01000008017",
+      "phoneNumber": "0100000.80.17",
       "rating": 3
     },
     {
-      "phoneNumber": "01000003852",
+      "phoneNumber": "0100000.38.52",
       "rating": 5
     },
     {
-      "phoneNumber": "01000005483",
+      "phoneNumber": "0100000.54.83",
       "rating": 2
     },
     {
-      "phoneNumber": "01000002295",
+      "phoneNumber": "0100000.22.95",
       "rating": 4
     },
     {
-      "phoneNumber": "01050700600",
+      "phoneNumber": "010.50.700.600",
       "rating": 3
     },
     {
-      "phoneNumber": "010700099100",
+      "phoneNumber": "010.7000.99.100",
       "rating": 5
     },
     {
-      "phoneNumber": "01000100586",
+      "phoneNumber": "01000.100.586",
       "rating": 2
     },
     {
-      "phoneNumber": "01011500115",
+      "phoneNumber": "010.115.00.115",
       "rating": 3
     },
     {
-      "phoneNumber": "01000004283",
+      "phoneNumber": "0100000.42.83",
       "rating": 4
     },
     {
-      "phoneNumber": "01000004284",
+      "phoneNumber": "0100000.42.84",
       "rating": 5
     }
   ],
