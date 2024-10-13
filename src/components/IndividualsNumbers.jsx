@@ -23,12 +23,19 @@ const IndividualsNumbers = () => {
                     <img
                       src={img}
                       alt="Phone banner"
-                      className="img-fluid h-100 object-fit-cover"
-                      style={{ height: "100px",width:'90px' }}
+                      className="img-fluid h-100"
+                      style={{
+                        height: "100px",
+                        width: "100px",
+                        objectFit: "contain",
+                      }} 
                     />
                   </div>
                   <div className="col-8 py-2 text-white">
                     <h4 className="mb-5 ">Phone No : {item.phoneNumber}</h4>
+                    {item.soldOut && (
+                      <span className="text-danger">Sold Out</span>
+                    )}
                     <div className="d-flex align-items-center">
                       {/* {Array.from({ length: item.rating }).map((_, i) => (
                         <i key={i} className="fa fa-star text-main me-1"></i>
@@ -36,6 +43,7 @@ const IndividualsNumbers = () => {
                       <button
                         onClick={() => handleWhatsAppClick(item.phoneNumber)}
                         className="btn btn-danger text-semibold d-block ms-auto"
+                        disabled={item.soldOut} // Disable button if sold out
                       >
                         Contact Us
                       </button>
