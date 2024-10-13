@@ -6,7 +6,7 @@ const IndividualsNumbers = () => {
   const handleWhatsAppClick = (phoneNumber) => {
     const message = `Hello, I would like to inquire about ${phoneNumber}`; // Dynamic message
 
-    const whatsappURL = `https://wa.me/201000009410?text=${message}`;
+    const whatsappURL = `https://wa.me/201068999933?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
 
