@@ -30,7 +30,8 @@
     },
     {
       "phoneNumber": "01000.100.586",
-      "rating": 2
+      "rating": 2,
+      "soldOut": true
     },
     {
       "phoneNumber": "010.115.00.115",
