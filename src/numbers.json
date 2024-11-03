@@ -6,7 +6,8 @@
     },
     {
       "phoneNumber": "0100000.80.17",
-      "rating": 3
+      "rating": 3,
+      "soldOut": true
     },
     {
       "phoneNumber": "0100000.38.52",
@@ -35,7 +36,8 @@
     },
     {
       "phoneNumber": "010.115.00.115",
-      "rating": 3
+      "rating": 3,
+      "soldOut": true
     },
     {
       "phoneNumber": "0100000.42.83",
