@@ -1,6 +1,14 @@
 {
   "individuals": [
     {
+      "phoneNumber": "0100000.34.60",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "0100000.29.70",
+      "rating": 4
+    },
+    {
       "phoneNumber": "0100.100.98.90",
       "rating": 4
     },
@@ -31,7 +39,8 @@
     },
     {
       "phoneNumber": "0100000.22.95",
-      "rating": 4
+      "rating": 4,
+      "soldOut": true
     },
     {
       "phoneNumber": "010.50.700.600",
