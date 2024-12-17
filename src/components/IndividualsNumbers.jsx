@@ -3,21 +3,40 @@ import img from "../Assets/image.png";
 import data from "../numbers.json";
 
 const IndividualsNumbers = () => {
-  const handleWhatsAppClick = (phoneNumber) => {
-    const message = `Hello, I would like to inquire about ${phoneNumber}`; // Dynamic message
+  const countZerosAfterPrefix = (phoneNumber) => {
+    const afterPrefix = phoneNumber.split("01")[1] || "";
+    let count = 0;
+    for (const char of afterPrefix) {
+      if (char === "0") {
+        count++; 
+      } else {
+        break; 
+      }
+    }
+    return count;
+  };
 
+  // Sort individuals by the count of consecutive 0s after "01"
+  const sortedIndividuals = [...data.individuals].sort((a, b) => {
+    const zerosA = countZerosAfterPrefix(a.phoneNumber);
+    const zerosB = countZerosAfterPrefix(b.phoneNumber);
+    return zerosB - zerosA; 
+  });
+
+  const handleWhatsAppClick = (phoneNumber) => {
+    const message = `Hello, I would like to inquire about ${phoneNumber}`;
     const whatsappURL = `https://wa.me/201068999933?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
 
   return (
-    <section className="individual-numbers bg-main py-3  ">
+    <section className="individual-numbers bg-main py-3">
       <div className="container p-3">
         <h2 className="text-white mb-3">Individual Numbers</h2>
         <div className="row">
-          {data.individuals.map((item, index) => (
+          {sortedIndividuals.map((item, index) => (
             <div key={index} className="col-md-4 g-3">
-              <div className="mx-1 px-2 card-color mb-3 mb-md-0  py-3 ">
+              <div className="mx-1 px-2 card-color mb-3 mb-md-0 py-3">
                 <div className="row">
                   <div className="col-4">
                     <img
@@ -28,18 +47,15 @@ const IndividualsNumbers = () => {
                         height: "100px",
                         width: "100px",
                         objectFit: "contain",
-                      }} 
+                      }}
                     />
                   </div>
                   <div className="col-8 py-2 text-white">
-                    <h4 className="mb-5 ">Phone No : {item.phoneNumber}</h4>
+                    <h4 className="mb-5">Phone No : {item.phoneNumber}</h4>
                     {item.soldOut && (
                       <span className="text-danger">Sold Out</span>
                     )}
                     <div className="d-flex align-items-center">
-                      {/* {Array.from({ length: item.rating }).map((_, i) => (
-                        <i key={i} className="fa fa-star text-main me-1"></i>
-                      ))} */}
                       <button
                         onClick={() => handleWhatsAppClick(item.phoneNumber)}
                         className="btn btn-danger text-semibold d-block ms-auto"
