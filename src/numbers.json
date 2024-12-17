@@ -1,6 +1,18 @@
 {
   "individuals": [
     {
+      "phoneNumber": "0100.100.98.90",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "010.940.940.10",
+      "rating": 4
+    },
+    {
+      "phoneNumber": "0100000.750.1",
+      "rating": 4
+    },
+    {
       "phoneNumber": "0100000.750.2",
       "rating": 4
     },
