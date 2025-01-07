@@ -14,7 +14,8 @@
     },
     {
       "phoneNumber": "010.940.940.10",
-      "rating": 4
+      "rating": 4,
+      "soldOut": true
     },
     {
       "phoneNumber": "0100000.750.1",
