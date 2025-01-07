@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Easy-number-s/static/css/main.b3a5d1d2.css",
-    "main.js": "/Easy-number-s/static/js/main.c8b8ba32.js",
+    "main.js": "/Easy-number-s/static/js/main.d034703b.js",
     "static/js/453.e38b3399.chunk.js": "/Easy-number-s/static/js/453.e38b3399.chunk.js",
     "static/media/fa-solid-900.ttf": "/Easy-number-s/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Easy-number-s/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.woff2": "/Easy-number-s/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Easy-number-s/index.html",
     "main.b3a5d1d2.css.map": "/Easy-number-s/static/css/main.b3a5d1d2.css.map",
-    "main.c8b8ba32.js.map": "/Easy-number-s/static/js/main.c8b8ba32.js.map",
+    "main.d034703b.js.map": "/Easy-number-s/static/js/main.d034703b.js.map",
     "453.e38b3399.chunk.js.map": "/Easy-number-s/static/js/453.e38b3399.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3a5d1d2.css",
-    "static/js/main.c8b8ba32.js"
+    "static/js/main.d034703b.js"
   ]
 }
